@@ -102,10 +102,24 @@
     margin-right: 12px;
     font-size: 16px;
 }
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
+/* ! footer start */
+.footer {
+    position: relative;
+    bottom: -95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: 'Fraunces', serif;
+  }
+  .footer .icons i {
+    margin: 3px;
+    font-size: 20px;
+    color: black;
+  }
+  
+  .footer .icons i:hover {
+    color: #0a58ca;
+  }
+  /* ! footer end */
